@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'TFLConnectionLayer/**/*.{h,m}'
+  s.ios.public_header_files = 'TFLConnectionLayer/**/*.h','Pods/JSONModel-tf/JSONModel/**/*.h'
   
   s.prefix_header_file = 'TFLConnectionLayer/SupportingFiles/TFLCLPreffix.pch'
 

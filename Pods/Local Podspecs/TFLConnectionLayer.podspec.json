@@ -9,6 +9,12 @@
   },
   "requires_arc": true,
   "source_files": "TFLConnectionLayer/**/*.{h,m}",
+  "ios": {
+    "public_header_files": [
+      "TFLConnectionLayer/**/*.h",
+      "Pods/JSONModel-tf/JSONModel/**/*.h"
+    ]
+  },
   "prefix_header_file": "TFLConnectionLayer/SupportingFiles/TFLCLPreffix.pch",
   "dependencies": {
     "SocketRocket": [
